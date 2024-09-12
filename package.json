@@ -1,0 +1,15 @@
+{
+  "name": "parcel-aniversario",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel src/index.html src/scripts/main.js src/style/main.scss --nocache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
