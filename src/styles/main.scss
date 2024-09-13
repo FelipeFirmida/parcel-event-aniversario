@@ -1,0 +1,28 @@
+@use 'header';
+@use 'section';
+@use './components/button';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Suse', sans-serif;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
+
+    @media (min-width: 641px) and (max-width: 1024px) {
+        max-width: 90%;
+    }
+}
