@@ -45,8 +45,13 @@
             display: block;
         }
 
+        &__content {
+            text-align: center;
+        }
+
         &__img {
             margin-top: 16px;
+            margin-left: 28px;
         }
     }
 }
